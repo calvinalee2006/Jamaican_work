@@ -1,0 +1,37 @@
+.heading {
+    text-align:center;
+    font-family: Verdana;
+    font-weight:normal;
+    color: black;
+    font-size: 30px ; 
+    border: 20px solid #008080;
+    margin: 0px ;
+    padding: 0px ;
+}
+
+#pride {
+    text-align:center;
+    font-family: Verdana;
+    font-weight:normal;
+    color: black;
+    font-size: 30px ; 
+    border: 20px solid #0000FF;
+    width:300px ;
+    text-decoration: underline ;
+}
+
+#sub {
+    text-align:center;
+    font-family:Verdana ;
+    font-weight: normal ;
+    font-size: 30px
+}
+
+#question {
+    text-align:center;
+    font-family:Verdana ;
+    font-weight: normal ;
+    font-size: 30px;
+    text-decoration: underline;
+    
+}
