@@ -1,5 +1,25 @@
-body {
-    
+/*body {
+  background-image:
+  url(https://www.t-nation.com/system/publishing/articles/10003001/original/The-Secret-Deadlift-Mindset.jpg?1437593629);
+  background-repeat: no-repeat;
+  background-size:  1500px;
+  
+}*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+a{
+    font-size: 30px;
+    padding: 10px;
+    background-color: black;
 }
 
 
@@ -19,9 +39,17 @@ body {
 
 #sub {
     text-align:center;
-    font-family:Verdana ;
-    font-size: 30px
-}
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    letter-spacing: -1.6px;
+    word-spacing: 1.6px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: underline rgb(68, 68, 68);
+    font-style: oblique;
+    font-variant: normal;
+    text-transform: capitalize;
+    
 
 #question {
     text-align:center;
