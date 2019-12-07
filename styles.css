@@ -2,7 +2,12 @@ body {
   background-image:
   url(https://www.t-nation.com/system/publishing/articles/10003001/original/The-Secret-Deadlift-Mindset.jpg?1437593629);
   background-repeat: no-repeat;
-  background-size:  2000px;
+  background-size:cover;
+  border: 2px solid;
+  padding: 20px; 
+  width: 300px;
+  resize: both;
+  overflow: auto;
   
 }
 
@@ -63,8 +68,11 @@ body {
 
 
 .column {
-    float: left;
-    width: 10.00;
+    display:inline;
+    width:200px ;
+    height: 200px ;
+
+
     padding: 0px;  
 }
  
@@ -73,6 +81,6 @@ body {
     text-align:center;
     content: "";
     clear: both;
-    display: table;
+    display: inline;
 }
   
