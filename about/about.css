@@ -3,15 +3,28 @@ body {
     background-repeat: none;
     background-size: cover;
     overflow: auto; 
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    color:#8e4c9e;
 }
 
-#Lee {
+.Navigation {
+    text-align:center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Lee {
     text-align: center;
     font-weight: bold;
     font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color:white;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:#2b818e;
+    text-align:center;
 }
 
 .picture {
