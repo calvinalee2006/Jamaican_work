@@ -5,6 +5,14 @@ body {
     overflow: auto; 
 }
 
+a, a:visited {
+    color: white;
+}
+
+a, a:hover {
+    color:#26727e;
+}
+
 .Navigation {
     text-align:center;
     font-weight: bold;
