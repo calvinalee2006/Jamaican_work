@@ -1,16 +1,21 @@
-body {
+/* body { 
     background-image: url(https://static.vecteezy.com/system/resources/previews/000/331/504/non_2x/lion-in-crown-vector-mascot.jpg);
     background-repeat: none;
     background-size: cover;
     overflow: auto; 
+}*/
+
+.inner-container{
+    background-color:rgba(0,0,0,0.7);
 }
 
 a, a:visited {
-    color: white;
+    
+    color:#26727e;
 }
 
 a, a:hover {
-    color:#26727e;
+    color: white;
 }
 
 .Navigation {
