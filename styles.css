@@ -1,115 +1,12 @@
 
-/*#Home {
-  background-image:
-  url(https://www.t-nation.com/system/publishing/articles/10003001/original/The-Secret-Deadlift-Mindset.jpg?1437593629);
-  background-repeat:repeat;
-  background-size:cover;
-  padding: 20px;
-  resize: both;
-  overflow: auto;
-}
 
-#About {
-    background-image: url(https://static.vecteezy.com/system/resources/previews/000/331/504/non_2x/lion-in-crown-vector-mascot.jpg);
-    background-repeat: none;
+.home header {
+    background-image: url(https://images.squarespace-cdn.com/content/54c174b5e4b02be743985ee0/1457501470833-CDSMSYOI87MJACXB1COT/atlas-lift4life-non-profit-black-roberto-artist-orozco-design-greek-titan-god-gods-mythos-mythology-stone-wood-statue-sun-sacred-geometry-digital-illustration-illustrator-designer-apparel.jpg?format=1000w&content-type=image%2Fjpeg);
     background-size: cover;
-    overflow: auto; 
-}
-
-.inner-container{
-    background-color:rgba(0,0,0,0.4);
-}
-
-p {
-    color: white;
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-}
-
-.heading {
-    text-align:center;
-    font-family: Verdana;
-    font-weight: bold;
-    color: white;
-    font-size: 30px ; 
-    letter-spacing: 0.06em;
-    
-}
-
-#logo{
-    font-size: 60px;
-}
-
-a {
-    font-size: 30px;
-    padding: 10px;
-    background-color: black;
-    color: white;
-}
-
-a:visited {
-    color: white;
-}
-
-#sub {
-    text-align:center;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 50px;
-    letter-spacing: -1.6px;
-    word-spacing: 1.6px;
-    color: rgb(248, 241, 241);
-    font-weight: 700;
-    text-decoration: underline rgb(68, 68, 68);
-    font-style: oblique;
-    font-variant: normal;
-    text-transform: capitalize;
-    text-decoration: underline;
-}
-
-.intro {
-    text-align: center;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-    
-} 
-
-#question {
-    text-align:center;
-    font-family:Verdana;
-    font-size: 50px;
-    text-decoration: underline;
-    color: white;
-}
-
-.column {
-    display: inline-block;
-   width: 30.00%;
-   padding: 2px;
-   
-}   
- 
-.type{
-    font-weight:bold;
-    text-align:center;
-    font-size:30px;
-    clear: both;
-    display: table;
-    color:white;
-}*/
-
-body {
-    background-color:white;
-}
-
-header {
-background-image: url(https://images.squarespace-cdn.com/content/54c174b5e4b02be743985ee0/1457501470833-CDSMSYOI87MJACXB1COT/atlas-lift4life-non-profit-black-roberto-artist-orozco-design-greek-titan-god-gods-mythos-mythology-stone-wood-statue-sun-sacred-geometry-digital-illustration-illustrator-designer-apparel.jpg?format=1000w&content-type=image%2Fjpeg);
-background-size: cover;
-background-position:center;
-background-repeat:none;
-height:30rem;
-font-family:'Times New Roman', Times, serif;
+    background-position:center;
+    background-repeat:none;
+    height:30rem;
+    font-family:'Times New Roman', Times, serif;
 }
 
 
@@ -142,20 +39,20 @@ header nav {
 }
 
 #name {
-Font-size: 150px;
-text-align:center;
-font-weight:bold;
-color:white;
+    Font-size: 150px;
+    text-align:center;
+    font-weight:bold;
+    color:white;
 }
 
 main {
-background-image: url(https://www.ancient-origins.net/sites/default/files/field/image/Titanomachy.jpg);
-background-size: cover;
-background-position:center;
-background-repeat:none;
-height: 30rem;
-padding:5px;
-margin: 0px;
+    background-image: url(https://www.ancient-origins.net/sites/default/files/field/image/Titanomachy.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat:none;
+    height: 30rem;
+    padding:5px;
+    margin: 0px;
 }
 .meaning {
     font-size: 50px;
@@ -201,4 +98,23 @@ article h2{
 
 #welcome h3 {
     font-size:30px;
+}
+
+/*Locations page*/
+
+.site header {
+    background-color: black;
+    border-bottom: 5px solid black;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    height: 5rem;
+}
+
+.site nav {
+    text-align:center;
+    padding: 25px;
+    border:5px;
+    font-size: 25px;
+
 }
