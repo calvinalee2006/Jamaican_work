@@ -121,6 +121,9 @@ article h2{
 
 .site{
     background-image: url(https://i.ytimg.com/vi/DyBDy8urs1Q/maxresdefault.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat:none;
 }
 
 .row {
@@ -132,7 +135,6 @@ article h2{
    width: 30.00%;
    margin: 10px;
    padding: 25px;
-   
    
 }   
 
