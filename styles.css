@@ -128,19 +128,11 @@ article h2{
     background-color:rgba(0,0,0,0.4);
 }
 
-.row {
-   
-    display:inline-block;
-    justify-content:center;
-    align-items:center;
-    box-sizing:border-box;
+.pics {
+  display: inline-block;
+  padding: 60px;
+ 
 }
-
-.column {
-    flex: 33.33%;
-     padding: 5px;
-   
-}   
 
 #tract h1 {
 padding-top: 120px;
@@ -154,4 +146,30 @@ color: white;
     font-size: 25px;
     color:white;
 }
+
+.title {
+    font-size:30px;
+    font-weight: bold;
+    text-align:center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+
+.info {
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+
+img.align-center {
+    display:block;
+    margin:0px auto;
+}
+
+img.medium {
+    width:250px;
+    height:250px;
+}
+
+/*Membership page*/
 
